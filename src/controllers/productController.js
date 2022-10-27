@@ -98,4 +98,8 @@ module.exports = {
  */
          
 },
+
+prueba: (req, res) => {
+    res.render("products/productsFetch", {titulo: "hola"})
+}
 }

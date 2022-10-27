@@ -9,5 +9,8 @@ router.get('/detalle/:id', productController.detalle);
 router.get('/categoria/:id', productController.Category); 
 router.post('/compras', productController.compra); 
 
+//Ruta de prueba
+router.get("/productos", productController.prueba)
+
 
 module.exports = router
